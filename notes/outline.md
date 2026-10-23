@@ -27,5 +27,5 @@ No prose here. Structure follows the UGent FEA masterproef form rules.
 
 ## Conclusion and future work
 
-## Use of generative AI (required statement; intro, methods or appendix)
-- Collected from the "AI use" line of each weekly log.
+## Use of generative AI (required statement; broad and general, agreed with Stijn)
+- Collected from the "AI use" section of each meeting log.

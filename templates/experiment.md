@@ -1,7 +1,5 @@
 # E00x: <question this run answers>
 
-(Module 2: start using this when the first code runs.)
-
 - Hypothesis:
 - Setup: commit <hash>, config <file>, data version <id>, W&B run <link>
 - Result (numbers):

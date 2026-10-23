@@ -6,4 +6,4 @@
 - Choice and reason: A. Notes, code and results share one dated history (process evidence, reproducibility),
   plain text converts easily to LaTeX, and Claude can read it through GitHub. Obsidian can still be used as editor.
 - Would change if: the note-taking overhead turns out too high to sustain weekly.
-- Status: decided (Wolf, 2026-10-23)
+- Status: decided (Wolf, 2026-10-23). Log per supervision meeting, IEEE citations, English (agreed with Stijn).

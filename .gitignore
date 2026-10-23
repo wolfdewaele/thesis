@@ -1,5 +1,44 @@
+# OS / editors
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 .obsidian/workspace*
 .obsidian/cache
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and results (large, reproducible, never in Git)
+data/*
+!data/README.md
+!data/SOURCES.md
+outputs/*
+!outputs/README.md
+wandb/
+*.wav
+*.flac
+*.ckpt
+*.pt
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# PDFs (papers live in Zotero), except the thesis output and generated figures
 *.pdf
+!thesis/figures/*.pdf

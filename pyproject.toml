@@ -1,0 +1,19 @@
+[project]
+name = "hased"
+version = "0.1.0"
+description = "Detection of important sound events in hearing-aid signals (master's thesis, Ghent University)"
+requires-python = ">=3.11"
+dependencies = []  # added as module 2 starts, e.g. torch, torchaudio, pyclarity, sed_scores_eval
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hased"]
+
+[tool.ruff]
+line-length = 100

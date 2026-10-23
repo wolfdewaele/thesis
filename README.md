@@ -9,17 +9,36 @@ Everything is plain Markdown so it stays versioned with the code and converts ea
 ## Layout
 
 ```
-notes/
-  literature/   one note per paper, named <citekey>.md (Zotero BibTeX key, e.g. veluri_semantic_2023)
-  decisions/    one record per real choice: D001-<topic>.md
-  log/          one file per supervision meeting: work done since the previous meeting
-                (append to next-meeting.md, rename it to YYYY-MM-DD.md after the meeting)
-  outline.md    parking lot: one-line ideas under the future thesis chapters
-templates/      copy these when creating a new note
-references.bib  exported from Zotero (do not edit by hand)
+notes/        thesis notes, kept all year (literature/, decisions/, experiments/, log/, outline.md)
+templates/    copy these when creating a new note
+src/hased/    Python package: data, models, training, evaluation, enhancement, utils
+configs/      YAML configs for data, models and experiments
+scripts/      thin command-line entry points (make mixtures, train, evaluate, make figures)
+tests/        pytest tests (label alignment, metrics)
+notebooks/    exploration only, never imported
+data/         datasets and generated mixtures (git-ignored, see data/README.md)
+outputs/      checkpoints and run outputs (git-ignored)
+thesis/       LaTeX thesis, extended abstract, figures, references.bib
+CLAUDE.md     context that Claude Code reads automatically
 ```
 
-Added when code starts: `notes/experiments/`, `src/`, `configs/`, and W&B tracking.
+How the folders map to the modules:
+
+| Module | Main folders |
+| --- | --- |
+| 1 Research, architecture, workflows | `notes/` |
+| 2 Event detection (type + onset/offset) | `src/hased/{data,models,training,evaluation}`, `configs/`, `scripts/`, `tests/` |
+| 3 Integration with speech enhancement | `src/hased/enhancement/`, `src/hased/evaluation/` |
+| 4 Writing and fine-tuning | `thesis/` |
+| Throughout | `notes/` (log, papers, decisions, experiments) |
+
+## Python setup (when code starts)
+
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh   # one time: install uv
+uv venv && source .venv/bin/activate
+uv pip install -e ".[dev]"
+```
 
 ## Habits (throughout all modules)
 
@@ -42,7 +61,7 @@ Conventions agreed with Stijn: IEEE citations, thesis in English, AI use describ
 2. Name paper notes after Zotero's default BibTeX key, e.g. `veluri_semantic_2023.md`.
 3. Better BibTeX (auto-updating `references.bib`): postponed. Version 9.0.71 does not support Zotero 10 yet
    (export fails). When a version for Zotero 10 is released: install it, right-click `Thesis` > Export... >
-   format "Better BibTeX", tick "Keep updated", save as `references.bib` in this repo.
+   format "Better BibTeX", tick "Keep updated", save as `thesis/references.bib`.
    Until then, export manually with the normal "BibTeX" format when the file is needed.
 
 ## Obsidian (optional)

@@ -5,6 +5,7 @@
   and candidate datasets (FSD50K, AudioSet-strong, STARSS23); asked Stijn about own mixtures vs Clarity data.
 - 2026-10-23: read the UGent masterproef rules and the ir rubric; set up this notes repo (D001).
 - 2026-10-23: defined the four modules with Stijn's input; literature study is built up throughout the year.
+- 2026-10-23: set up the project layout for all four modules (code package `hased`, configs, data, thesis LaTeX), see README.
 
 ## Decisions made
 - D001 notes as Markdown in this repo (decided)

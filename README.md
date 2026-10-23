@@ -10,13 +10,13 @@ Everything is plain Markdown so it stays versioned with the code and converts ea
 
 ```
 notes/
-  literature/   one note per paper, named <citekey>.md (citekey from Zotero / Better BibTeX)
+  literature/   one note per paper, named <citekey>.md (Zotero BibTeX key, e.g. veluri_semantic_2023)
   decisions/    one record per real choice: D001-<topic>.md
   log/          one file per supervision meeting: work done since the previous meeting
                 (append to next-meeting.md, rename it to YYYY-MM-DD.md after the meeting)
   outline.md    parking lot: one-line ideas under the future thesis chapters
 templates/      copy these when creating a new note
-references.bib  auto-exported by Zotero + Better BibTeX (do not edit by hand)
+references.bib  exported from Zotero (do not edit by hand)
 ```
 
 Added when code starts: `notes/experiments/`, `src/`, `configs/`, and W&B tracking.
@@ -38,11 +38,12 @@ Conventions agreed with Stijn: IEEE citations, thesis in English, AI use describ
 
 ## Zotero setup (one time)
 
-1. Install Zotero and the Better BibTeX plugin.
-2. Create a collection `Thesis`.
-3. Right-click the collection > Export Collection > format "Better BibTeX",
-   tick "Keep updated", and save it as `references.bib` in this repo.
-4. Use the Better BibTeX citekey as the filename of the paper note (e.g. `veluri2023semantic.md`).
+1. Install Zotero and the Zotero Connector browser extension. Create a collection `Thesis`.
+2. Name paper notes after Zotero's default BibTeX key, e.g. `veluri_semantic_2023.md`.
+3. Better BibTeX (auto-updating `references.bib`): postponed. Version 9.0.71 does not support Zotero 10 yet
+   (export fails). When a version for Zotero 10 is released: install it, right-click `Thesis` > Export... >
+   format "Better BibTeX", tick "Keep updated", save as `references.bib` in this repo.
+   Until then, export manually with the normal "BibTeX" format when the file is needed.
 
 ## Obsidian (optional)
 

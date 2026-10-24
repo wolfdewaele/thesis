@@ -9,6 +9,8 @@
 - 2026-10-24: compared SED datasets (DESED, MAESTRO, own FSD50K+Clarity mixtures, CEC3 Task 3, AudioSet-strong,
   DCASE 2017 Task 4, SINGA:PURA, STARSS23, ...): none has hearing-aid signals with event labels, so own mixtures
   for training and real sets for testing (notes/literature/datasets-sed-2026-10.md, D003).
+- 2026-10-24: counted how often target events overlap speech in time: 15-30% of events in AudioSet-strong,
+  15-19% in DESED, 6-37% in DCASE 2017 Task 4; so real data rarely has warning sounds during speech.
 
 ## Decisions made
 - D001 notes as Markdown in this repo (decided)

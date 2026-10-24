@@ -10,6 +10,7 @@
 ## Decisions made
 - D001 notes as Markdown in this repo (decided)
 - D002 own FSD50K mixtures (proposed, waiting for Stijn)
+- D003 real test sets: DCASE 2017 Task 4, SINGA:PURA, STARSS23 (proposed)
 
 ## Problems and open questions for Stijn
 - Own FSD50K mixtures, or the Clarity data itself? (D002)

@@ -9,6 +9,13 @@ Notes marked "draft" were prepared by Claude from abstracts: read the paper, the
 - [ ] kwon_multi-stage_2026: DCASE 2026 Task 4, iterative separate-classify-extract (15.5 dB)
 - [ ] deng_label-guided_2026: DCASE 2026 Task 4, tagger ensemble + baseline separator (8.6 dB)
 
+## SED basics: first steps, input, architectures (2026-10-24)
+- [ ] cakir_convolutional_2017: CRNN for polyphonic SED, the standard pipeline — draft note
+- [ ] adavanne_sound_2017: binaural features help SED — draft note
+- [ ] nguyen_salsa_2022: SALSA / SALSA-Lite multichannel features — draft note
+- [ ] shimada_stereo_2025: DCASE 2025 stereo SELD — draft note
+- [ ] adavanne_sound_2019, shimada_accdoa_2021: SELD background (only if direction matters) — draft notes
+
 ## Read first (M2-M3 start now)
 - [ ] mesaros_sound_2021: SED tutorial (background chapter, metrics) — draft note
 - [ ] veluri_semantic_2023: Semantic Hearing (closest related work) — draft note

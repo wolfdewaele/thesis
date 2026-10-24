@@ -11,6 +11,8 @@
   aids under hearing loss: likely the thesis contribution.
 - 2026-10-24: browsed the DCASE 2024 Task 4 baseline and three DCASE 2026 Task 4 reports. Joint detect + separate
   systems (Bando, Kwon) roughly double the baseline score; in the cascade (Deng) the tagger is the bottleneck.
+- 2026-10-24: looked up how SED pipelines start (preprocessing, log-mel input, multichannel features, architecture
+  families); plan for the first SED baseline: mono, 16 kHz log-mel, frame-wise CRNN on own mixtures.
 
 ## Decisions made
 - D001 notes as Markdown in this repo (decided)

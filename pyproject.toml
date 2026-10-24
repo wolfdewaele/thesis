@@ -3,7 +3,15 @@ name = "hased"
 version = "0.1.0"
 description = "Detection of important sound events in hearing-aid signals (master's thesis, Ghent University)"
 requires-python = ">=3.11"
-dependencies = []  # added as module 2 starts, e.g. torch, torchaudio, pyclarity, sed_scores_eval
+dependencies = [
+    "librosa",
+    "matplotlib",
+    "numpy",
+    "pyclarity",  # CEC2 HOA tools; also brings torch
+    "pyyaml",
+    "scipy",
+    "soundfile",
+]
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff"]

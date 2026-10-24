@@ -1,0 +1,33 @@
+# Pilot mixture set for listening and review: FSD50K events + Clarity speech + FSD50K background,
+# spatialised to 6 hearing-aid (BTE) channels with the PyClarity CEC2 tools.
+# Rebuild: python scripts/make_mixtures.py configs/data/pilot_v0.yaml
+name: pilot_v0
+seed: 0
+n_scenes: 100
+duration_s: 10.0
+out_dir: data/processed/pilot_v0
+
+clarity_root: data/raw/clarity_CEC2/clarity_data
+clarity_split: dev            # rooms (HOA IRs) and target speech; CEC2 train rooms are kept for the training set
+heads: [BuK, DADEC, KEMAR, VP_E1, VP_E2, VP_E4, VP_E5, VP_E6, VP_E7, VP_E8, VP_E9, VP_E11, VP_E12,
+        VP_E13, VP_N1, VP_N3, VP_N4, VP_N5, VP_N6]
+
+fsd50k_root: data/raw/fsd50k
+fsd50k_split: train           # FSD50K dev.csv split column: train (here) or val; never the FSD50K eval set
+
+# our label: FSD50K label. A clip gets the most specific match; clips with two unrelated matches are skipped.
+event_classes:
+  siren: Siren
+  horn: Vehicle_horn_and_car_horn_and_honking
+  alarm: Alarm                # alarms that are none of the classes below (alarm clock, smoke detector, ...)
+  doorbell: Doorbell
+  telephone: Telephone
+  ringtone: Ringtone
+background_labels: [Rain, Wind, Traffic_noise_and_roadway_noise, Mechanical_fan, Crowd, Engine]
+
+n_events: [0, 2]              # per scene, uniform integer, inclusive
+max_event_s: 6.0              # longer clips are cropped at random
+p_event_overlaps_speech: 0.3  # share of events placed so they overlap the speech in time
+snr_speech_db: [0, 15]        # speech vs background, front BTE pair, over the speech interval
+snr_event_db: [-5, 15]        # event vs background, front BTE pair, over the event interval
+background_dbfs: -35          # background RMS before the final anti-clipping gain

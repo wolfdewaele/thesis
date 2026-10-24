@@ -27,9 +27,10 @@ How the folders map to the modules:
 | Module | Main folders |
 | --- | --- |
 | 1 Research, architecture, workflows | `notes/` |
-| 2 Event detection (type + onset/offset) | `src/hased/{data,models,training,evaluation}`, `configs/`, `scripts/`, `tests/` |
-| 3 Integration with speech enhancement | `src/hased/enhancement/`, `src/hased/evaluation/` |
-| 4 Writing and fine-tuning | `thesis/` |
+| 2 Event classification (which events) | `src/hased/{data,models,training,evaluation}`, `configs/`, `scripts/`, `tests/` |
+| 3 Event timing (onset/offset) | same folders as module 2 (strong labels, frame-level outputs, post-processing) |
+| 4 Integration with speech enhancement | `src/hased/enhancement/`, `src/hased/evaluation/` |
+| 5 Writing and fine-tuning | `thesis/` |
 | Throughout | `notes/` (log, papers, decisions, experiments) |
 
 ## Python setup (when code starts)

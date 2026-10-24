@@ -7,9 +7,11 @@ Submission: 20 May 2027 (Plato). About 800 hours, solo.
 
 ## Modules (defined by Wolf; do not redefine them)
 1. Research approaches, set up architecture and workflows, consult papers.
-2. Build event detection only: event type + onset/offset. First working version: 14 Dec 2026.
-3. Integrate detection into speech enhancement; decide what to let through.
-4. Write the thesis and fine-tune everything.
+2. Sound event classification: detect which of the defined event types occur.
+3. Sound event timing: detect when those events happen (onset/offset).
+   First working sound event detection version (modules 2 and 3): 14 Dec 2026.
+4. Integrate detection into speech enhancement; decide what to let through.
+5. Write the thesis and fine-tune everything.
 Throughout all modules: keep brief notes for the final writing, and improve other parts when new ideas appear.
 
 ## Conventions

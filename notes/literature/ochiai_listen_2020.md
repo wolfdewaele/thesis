@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: Mixtures from FSD-based sound events. SDR improvement.
 - Main result: Shows class-query extraction works for multiple target classes at once.
 - Limitation: Offline; not causal.
-- Relevance to my thesis (1 line): M3 background: origin of user-configurable class selection, the idea behind "importance is configurable".
+- Relevance to my thesis (1 line): M4 background: origin of user-configurable class selection, the idea behind "importance is configurable".
 - Tags: extraction | user-configurable

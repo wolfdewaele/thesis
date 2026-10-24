@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: Scaper mixtures from FSD50K, ESC-50, MUSDB18, DISCO noise, HRTFs/BRIRs, TAU urban backgrounds; 20 target classes (incl. siren, car horn, alarm clock, door knock). SI-SNRi, ITD/ILD error, MOS.
 - Main result: SI-SNRi 7.2 dB (0.52M params); 6.56 ms per 10 ms chunk on iPhone 11, ~20 ms end-to-end.
 - Limitation: Normal-hearing listeners; extraction only, no explicit onset/offset output; no hearing loss.
-- Relevance to my thesis (1 line): Closest related work for M3 option A, and its data recipe matches the planned own mixtures (D002).
+- Relevance to my thesis (1 line): Closest related work for M4 option A, and its data recipe matches the planned own mixtures (D002).
 - Tags: hearing-aid | extraction | latency | binaural

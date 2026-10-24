@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: DCASE data. PSDS, collar-based and intersection-based F1.
 - Main result: Exact and fast PSDS; now used by the DCASE baseline.
 - Limitation: Python package to learn, nothing more.
-- Relevance to my thesis (1 line): M2: use sed_scores_eval (MIT) in src/hased/evaluation from the start.
+- Relevance to my thesis (1 line): M3 (timing): use sed_scores_eval (MIT) in src/hased/evaluation from the start.
 - Tags: evaluation | tools

@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: DESED. PSDS1/PSDS2.
 - Main result: State of the art on DESED at publication; code ATST-SED (MIT).
 - Limitation: Domestic classes only; offline.
-- Relevance to my thesis (1 line): M2: a well-documented fine-tuning recipe to compare against.
+- Relevance to my thesis (1 line): M2-M3: a well-documented fine-tuning recipe to compare against.
 - Tags: SED | pretrained | semi-supervised

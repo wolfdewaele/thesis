@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: DESED. Event F1, PSDS.
 - Main result: Late fusion best, but small gain (F1 +1.7, PSDS +0.018); mismatch between separation and SED data limits it.
 - Limitation: 2020 baseline models.
-- Relevance to my thesis (1 line): M3: evidence that a naive cascade gives little; motivates joint training or detector-driven gating.
+- Relevance to my thesis (1 line): M4: evidence that a naive cascade gives little; motivates joint training or detector-driven gating.
 - Tags: SED | separation | integration

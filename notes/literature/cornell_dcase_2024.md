@@ -8,5 +8,5 @@ Status: browsed by Wolf (2026-10-24); note drafted by Claude from the report. Co
 - Data / metric: DESED (10 domestic classes, strong + weak labels) and MAESTRO Real (soft labels, 11 classes evaluated). PSDS1 on DESED, segment-based mean partial AUC on MAESTRO; energy via CodeCarbon.
 - Main result: PSDS1 0.491 and segMPAUC 0.731 on dev-test. Without DESED, MAESTRO collapses (0.115); cross-mapping and time masking each give small gains.
 - Limitation: Domestic classes only (no sirens or horns); hand-designed mapping rules; offline, bidirectional GRU (not causal).
-- Relevance to my thesis (1 line): M2: the reference SED pipeline to start from (code in DESED_task), and its missing-label tricks matter if I combine FSD50K, AudioSet-strong and my own mixtures.
+- Relevance to my thesis (1 line): M2-M3: the reference SED pipeline to start from (code in DESED_task), and its missing-label tricks matter if I combine FSD50K, AudioSet-strong and my own mixtures.
 - Tags: SED | baseline | heterogeneous-data | evaluation

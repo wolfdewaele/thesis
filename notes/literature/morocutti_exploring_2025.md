@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: AudioSet-strong (407 classes). PSDS1, params, MACs, throughput.
 - Main result: PSDS1 45.3 with ~5M params, comparable to ~90M-param transformers. Code: EfficientSED (MIT).
 - Limitation: Offline evaluation; no latency or causality analysis.
-- Relevance to my thesis (1 line): M2: strongest candidate backbone for a hearing-aid-sized detector; causal variant would be your own step.
+- Relevance to my thesis (1 line): M2-M3: strongest candidate backbone for a hearing-aid-sized detector; causal variant would be your own step.
 - Tags: SED | efficiency | latency

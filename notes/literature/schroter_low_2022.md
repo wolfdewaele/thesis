@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: Objective metrics + subjective listening study.
 - Main result: Outperforms complex ratio mask; preferred over existing hearing-aid noise reduction.
 - Limitation: Speech only: it suppresses everything else, including alarms.
-- Relevance to my thesis (1 line): M3: candidate speech enhancer to steer with the detector; code DeepFilterNet (MIT/Apache-2.0).
+- Relevance to my thesis (1 line): M4: candidate speech enhancer to steer with the detector; code DeepFilterNet (MIT/Apache-2.0).
 - Tags: hearing-aid | speech-enhancement | latency

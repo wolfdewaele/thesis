@@ -8,5 +8,5 @@ Status: browsed by Wolf (2026-10-24); note drafted by Claude from the report. Co
 - Data / metric: DCASE 2026 Task 4 data. CAPI-SDRi, label accuracy.
 - Main result: CAPI-SDRi 8.6 dB vs 8.3 dB baseline; most of the gain from better tagging and fine-tuning the separator.
 - Limitation: Small gains; all choices made on the dev set; no size, latency or code.
-- Relevance to my thesis (1 line): M3: evidence that in a cascade the tagger (my M2 detector) is the bottleneck, and that improving the separator around it gives little.
+- Relevance to my thesis (1 line): M4: evidence that in a cascade the tagger (my M2 classifier) is the bottleneck, and that improving the separator around it gives little.
 - Tags: separation | audio-tagging | ensemble | DCASE-2026

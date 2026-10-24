@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: DCASE data. PSDS.
 - Main result: Became the DCASE Task 4 ranking metric (PSDS1 for onset precision, PSDS2 for class confusion).
 - Limitation: Harder to explain than F1; for user-facing claims also report F1 at a chosen threshold.
-- Relevance to my thesis (1 line): M2: main metric, comparable with DCASE papers.
+- Relevance to my thesis (1 line): M3 (timing): main metric, comparable with DCASE papers.
 - Tags: evaluation

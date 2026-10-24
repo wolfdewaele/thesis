@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: 4-channel FOA mixtures, 18 classes (incl. AlarmClock, Doorbell, Buzzer, BicycleBell); zero-target and same-class mixtures in 2026. CAPI-SDRi, label F1.
 - Main result: Baseline CAPI-SDRi 6.77 dB on eval; results and technical reports are online.
 - Limitation: Clip-level labels (no onset/offset); no sirens; offline.
-- Relevance to my thesis (1 line): M3 option B benchmark: detect, then let through. The tech reports show which tagger+separator combinations work.
+- Relevance to my thesis (1 line): M4 option B benchmark: detect, then let through. The tech reports show which tagger+separator combinations work.
 - Tags: extraction | separation | benchmark

@@ -9,14 +9,14 @@ Notes marked "draft" were prepared by Claude from abstracts: read the paper, the
 - [ ] kwon_multi-stage_2026: DCASE 2026 Task 4, iterative separate-classify-extract (15.5 dB)
 - [ ] deng_label-guided_2026: DCASE 2026 Task 4, tagger ensemble + baseline separator (8.6 dB)
 
-## Read first (M2 starts now)
+## Read first (M2-M3 start now)
 - [ ] mesaros_sound_2021: SED tutorial (background chapter, metrics) — draft note
 - [ ] veluri_semantic_2023: Semantic Hearing (closest related work) — draft note
 - [ ] schmid_improving_2024: AudioSet-strong pretrained SED checkpoints — draft note
 - [ ] morocutti_exploring_2025: small SED models (EfficientSED) — draft note
 - [ ] ebbers_threshold_2022 + bilen_framework_2020: PSDS and sed_scores_eval — draft notes
 
-## Then (M2 details)
+## Then (M2-M3 details)
 - [ ] shao_fine-tune_2024: ATST-SED fine-tuning recipe — draft note
 - [ ] Fonseca et al., FSD50K (TASLP 2022), main event source
 - [ ] Hershey et al., temporally-strong labels / AudioSet-strong (ICASSP 2021)
@@ -25,7 +25,7 @@ Notes marked "draft" were prepared by Claude from abstracts: read the paper, the
 - [ ] Mesaros et al., DCASE 2017 Task 4 (smart cars; siren classes)
 - [ ] Pretrained audio models: PANNs, AST, BEATs (only skim)
 
-## Later (M3)
+## Later (M4)
 - [ ] veluri_real-time_2023: Waveformer — draft note
 - [ ] ochiai_listen_2020: class-conditioned extraction — draft note
 - [ ] nguyen_description_2026: DCASE 2026 Task 4 (S5) + 2–3 top technical reports — draft note

@@ -8,5 +8,5 @@ Status: draft by Claude from the abstract and key numbers (2026-10-23). Correct 
 - Data / metric: AudioSet-strong, DESED. PSDS1.
 - Main result: Strong DCASE 2024 Task 4 results; released checkpoints (PretrainedSED, MIT).
 - Limitation: Large models, offline; not suited to a hearing aid as-is.
-- Relevance to my thesis (1 line): M2: AudioSet-strong checkpoints already cover Siren, Vehicle horn, Alarm, Doorbell: a quick strong baseline and a teacher for distillation.
+- Relevance to my thesis (1 line): M2-M3: AudioSet-strong checkpoints already cover Siren, Vehicle horn, Alarm, Doorbell: a quick strong baseline and a teacher for distillation.
 - Tags: SED | pretrained | AudioSet-strong

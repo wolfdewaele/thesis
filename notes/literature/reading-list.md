@@ -1,8 +1,13 @@
 # Reading list
 
 Move a line to its own note (`<citekey>.md`) once read. Add the paper to Zotero first.
-Overview of methods and code: [overview-2026-10.md](overview-2026-10.md). How to find more: [search-workflow.md](search-workflow.md).
 Notes marked "draft" were prepared by Claude from abstracts: read the paper, then correct the note and remove "draft".
+
+## Browsed (2026-10-24), read in full later
+- [ ] cornell_dcase_2024: DCASE 2024 Task 4 baseline (SED, heterogeneous data, missing labels)
+- [ ] bando_end-to-end_2026: DCASE 2026 Task 4, joint end-to-end detect + separate (16.5 dB)
+- [ ] kwon_multi-stage_2026: DCASE 2026 Task 4, iterative separate-classify-extract (15.5 dB)
+- [ ] deng_label-guided_2026: DCASE 2026 Task 4, tagger ensemble + baseline separator (8.6 dB)
 
 ## Read first (M2 starts now)
 - [ ] mesaros_sound_2021: SED tutorial (background chapter, metrics) — draft note

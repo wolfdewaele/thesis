@@ -1,4 +1,4 @@
-# thesis: the LaTeX text (module 4, notes collected all year)
+# thesis: the LaTeX text (module 5, notes collected all year)
 
 English, IEEE citations. Structure follows the UGent FEA form rules (see `notes/outline.md`).
 

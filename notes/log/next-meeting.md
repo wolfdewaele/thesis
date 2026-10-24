@@ -18,6 +18,9 @@
   systems (Bando, Kwon) roughly double the baseline score; in the cascade (Deng) the tagger is the bottleneck.
 - 2026-10-24: looked up how SED pipelines start (preprocessing, log-mel input, multichannel features, architecture
   families); plan for the first SED baseline: mono, 16 kHz log-mel, frame-wise CRNN on own mixtures.
+- 2026-10-24: built the mixture generator (FSD50K events + Clarity speech + FSD50K background, CEC2 rooms,
+  6 BTE channels, exact onset/offset/SNR labels, share of events overlapping speech as a parameter);
+  pilot recipe configs/data/pilot_v0.yaml (100 scenes) for listening before scaling up.
 
 ## Decisions made
 - D001 notes as Markdown in this repo (decided)

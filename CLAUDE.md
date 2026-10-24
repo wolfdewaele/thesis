@@ -19,4 +19,6 @@ Throughout all modules: keep brief notes for the final writing, and improve othe
 - Code in `src/hased/`; scripts are thin; notebooks are exploration only.
 - Never commit data, audio, checkpoints or outputs. Mixtures must be reproducible from a config + seed.
 - Never tune on the test set.
+- Always follow the ponytail skill (`.claude/skills/ponytail/`, level full) from the start of every session,
+  unless Wolf says otherwise.
 - Wolf works on Ubuntu and is learning Claude Code: give bash commands and briefly explain Claude Code features when useful.
